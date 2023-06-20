@@ -3,9 +3,3 @@
 </script>
 
 <slot/>
-
-<style lang="postcss">
-    :global(*) {
-        font-family: 'Instrument Serif', serif;
-    }
-</style>
