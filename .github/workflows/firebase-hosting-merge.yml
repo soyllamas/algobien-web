@@ -8,7 +8,7 @@ name: Build & Deploy to Firebase Hosting
       - main
 jobs:
   build_and_deploy:
-    name: 🏗️Build & Deploy
+    name: 🏗️ Build & Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
