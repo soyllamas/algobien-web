@@ -1,25 +1,39 @@
 <svelte:head>
-    <title>Algo Bien — Comidas & Bebidas</title>
+    <title>10/10 — Comidas & Bebidas</title>
 </svelte:head>
-<h1 class="text-8xl text-center mt-12">Algo Bien.</h1>
-<div class="px-12 w-full mb-12 mt-16">
-    <div class="h-0.5 w-full bg-gray-200"></div>
+<nav class="border-b-2 border-b-black fixed w-full bg-gray-50 h-16 grid place-items-center">
+    <h1 class="text-center bg-black text-white px-2">10/10</h1>
+</nav>
+<div class="max-w-3xl mx-auto pt-28 md:pt-32 px-4">
+    <h2 class="text-2xl md:text-4xl">Una colección de recomendaciones que quieres tener en el radar.</h2>
+    <p class="md:text-lg text-gray-400 mt-4">Explora una cuidada selección de restaurantes, bares, cafeterías y
+        otros conceptos de los que vas a necesitar saber más.</p>
 </div>
-<div class="max-w-5xl md:mx-auto px-5 md:px-12 grid grid-cols-1 md:grid-cols-5 gap-x-0 md:gap-x-8 items-center">
-    <div class="col-span-2 aspect-video bg-cover bg-center rounded-2xl mb-6 md:mb-0"
-         style="background-image: url('cover.jpg')"></div>
-    <div class="col-span-3">
-        <h2 class="text-5xl">Una colección de recomendaciones que quieres tener en el radar.</h2>
-        <p class="text-gray-400 mt-4">Explora una cuidada selección de restaurantes, bares, cafeterías y otros conceptos
-            de los que vas a necesitar saber más.</p>
-    </div>
-</div>
-<div class="px-12 w-full mt-12">
-    <div class="h-0.5 w-full bg-gray-200"></div>
+<div class="grid md:grid-cols-2 gap-4 mx-auto max-w-3xl px-4 py-12">
+    <img src="https://firebasestorage.googleapis.com/v0/b/soy-llamas.appspot.com/o/destinations%2Fpuerto-escondido%2FPE_1.jpg?alt=media&token=9915c7c5-3c0b-43b5-8f39-398e0884ce42"
+         alt="puerto escondido">
+    <img src="https://firebasestorage.googleapis.com/v0/b/soy-llamas.appspot.com/o/destinations%2Fpuerto-escondido%2FPE_2.jpg?alt=media&token=ccf0b33a-4f03-4fe6-a8de-b48a64da2810"
+         alt="puerto escondido">
+    <img src="https://firebasestorage.googleapis.com/v0/b/soy-llamas.appspot.com/o/destinations%2Fpuerto-escondido%2FPE_3.jpg?alt=media&token=829af8cb-cc6e-4592-b0be-90179af09be8"
+         alt="puerto escondido">
+    <img src="https://firebasestorage.googleapis.com/v0/b/soy-llamas.appspot.com/o/destinations%2Fpuerto-escondido%2FPE_4.jpg?alt=media&token=7ff30c5f-3d41-451d-86de-f2f1ff5913cb"
+         alt="puerto escondido">
+    <img src="https://firebasestorage.googleapis.com/v0/b/soy-llamas.appspot.com/o/destinations%2Fpuerto-escondido%2FPE_5.jpg?alt=media&token=9a4515cf-ca3d-4ddf-b623-a76f7a586466"
+         alt="puerto escondido">
+    <img src="https://firebasestorage.googleapis.com/v0/b/soy-llamas.appspot.com/o/destinations%2Fpuerto-escondido%2FPE_6.jpg?alt=media&token=e1d2c186-82c4-4095-9dba-4ce5353ccaa3"
+         alt="puerto escondido">
 </div>
 
 <style lang="postcss">
-    h1, h2 {
-        font-family: 'Instrument Serif', serif;
+    h1 {
+        font-family: 'IBM Plex Mono', monospace;
+    }
+
+    h2, p {
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    img {
+        @apply rounded-xl md:rounded-2xl
     }
 </style>
